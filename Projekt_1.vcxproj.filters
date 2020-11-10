@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Parameters">
+      <UniqueIdentifier>{d72483cf-d9b2-44d4-bb28-dfae80ee53a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Parameters">
+      <UniqueIdentifier>{72c34d37-7cbf-4137-a0d0-8cdf5aee26f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Communicator.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Parameter.cpp">
+      <Filter>Pliki źródłowe\Parameters</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamBufferConfig.cpp">
+      <Filter>Pliki źródłowe\Parameters</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamRecordsRead.cpp">
+      <Filter>Pliki źródłowe\Parameters</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamRecordsRandomize.cpp">
+      <Filter>Pliki źródłowe\Parameters</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamRecordsInput.cpp">
+      <Filter>Pliki źródłowe\Parameters</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamSort.cpp">
+      <Filter>Pliki źródłowe\Parameters</Filter>
+    </ClCompile>
+    <ClCompile Include="Record.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamPrintFile.cpp">
+      <Filter>Pliki źródłowe\Parameters</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamReset.cpp">
+      <Filter>Pliki źródłowe\Parameters</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Menu.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Communicator.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Parameter.h">
+      <Filter>Pliki nagłówkowe\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamBufferConfig.h">
+      <Filter>Pliki nagłówkowe\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamRecordsRandomize.h">
+      <Filter>Pliki nagłówkowe\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamRecordsRead.h">
+      <Filter>Pliki nagłówkowe\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamRecordsInput.h">
+      <Filter>Pliki nagłówkowe\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamSort.h">
+      <Filter>Pliki nagłówkowe\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="Record.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamPrintFile.h">
+      <Filter>Pliki nagłówkowe\Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamReset.h">
+      <Filter>Pliki nagłówkowe\Parameters</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
